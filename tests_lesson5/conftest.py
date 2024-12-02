@@ -1,4 +1,3 @@
-from requests import session
 from selene import browser
 import pytest
 from selenium import webdriver
