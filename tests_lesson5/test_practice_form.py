@@ -30,7 +30,7 @@ def test_complete_fields(browser_settings):
     browser.element("[class='table-responsive']").should(have.text('Alexandro Gonzales'))
     browser.element("[class='table-responsive']").should(have.text('Agonzales@gmal.com'))
     browser.element("[class='table-responsive']").should(have.text('1234567890'))
-    browser.element("[class='table-responsive']").should(have.text('29 November,2024'))
+    browser.element("[class='table-responsive']").should(have.text('7 April,2001'))
     browser.element("[class='table-responsive']").should(have.text('Computer Science, Maths'))
     browser.element("[class='table-responsive']").should(have.text('Music'))
     browser.element("[class='table-responsive']").should(have.text('123.png'))
